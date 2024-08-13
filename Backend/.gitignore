@@ -1,0 +1,61 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/build/
+/dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Dependency directories
+jspm_packages/
+node_modules/
+
+# Package distribution
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE/editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# MongoDB data directory
+data/db/
+
+# Docker files
+docker-compose.override.yml
+Dockerfile
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+
+# React specific
+*.cache
+.cache/

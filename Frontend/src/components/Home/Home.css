@@ -1,0 +1,47 @@
+.box{
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    background: linear-gradient(#212121, #212121) ;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.boxx{
+    height: 110vh;
+    width: 100%;
+    display: flex;justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.box .h1{
+    font-size: 50px;
+display: flex;
+font-weight: bold;
+justify-content: space-between;
+}
+
+.box .h2{
+    margin-top: 30px;
+    font-size: 38px;
+}
+.box div{
+    margin-left: 20px;
+}
+
+
+.description{
+    margin-top: 30px;
+}
+
+.email{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.logout{
+    padding: 19px;
+    cursor: pointer;
+}
+.logout :hover{
+    opacity: 0.5;
+}
